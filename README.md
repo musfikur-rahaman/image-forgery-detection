@@ -38,7 +38,6 @@ High forged-image recall (0.88) is the metric that matters most here — in fore
 ## Repository contents
 
 - `Image_Classification_Segmentation_CASIA2_ResNet50.ipynb` — the full pipeline: data loading, ResNet50 classifier, threshold tuning, U-Net segmentation, Grad-CAM visualization
-- `MultiBranch_EfficientNetB3_DCT.ipynb` — a second approach: multi-branch EfficientNet-B3 (RGB) fused with an MLP on 64-bin DCT coefficient histograms, with Grad-CAM
 - `assets/system.png` — system overview diagram
 - `docs/Image_Forgery_Detection.pdf` — project report
 
